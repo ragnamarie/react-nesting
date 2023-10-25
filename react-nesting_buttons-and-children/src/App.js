@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import { Button } from "./components/Button";
 
 export default function App() {
   return (
@@ -9,13 +10,5 @@ export default function App() {
       <Button>salut</Button>
       <Button>ciao</Button>
     </main>
-  );
-}
-
-function Button({ children }) {
-  return (
-    <button className="button" type="button">
-      {children}
-    </button>
   );
 }
